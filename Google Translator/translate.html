@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./translate.css">
+    <script src="./translate.js"></script>
+    <title>Translator</title>
+</head>
+<body>
+	<div id="language_translate">
+		<p id="source">
+			<span id="source_para">Translate from</span>
+			<select id="source_select">
+				<option value="English">English</option>
+				<option value="Arabic">Arabic</option>
+				<option value="Chinese">Chinese</option>
+				<option value="French">French</option>
+				<option value="German">German</option>
+				<option value="Hindi">Hindi</option>
+				<option value="Indonesian">Indonesian</option>
+				<option value="Irish">Irish</option>
+				<option value="Italian">Italian</option>
+				<option value="Japanese">Japanese</option>
+				<option value="Korean">Korean</option>
+				<option value="Polish">Polish</option>
+				<option value="Portuguese">Portuguese</option>
+				<option value="Russian">Russian</option>
+				<option value="Spanish">Spanish</option>
+				<option value="Turkish">Turkish</option>
+				<option value="Vietnamese">Vietnamese</option>
+			</select>
+		</p>	
+		<p id="converted">
+			<span id="converted_para">Translate into</span>
+			<select id="converted_select">
+				<option value="en">English</option>
+				<option value="Arabic">Arabic</option>
+				<option value="Chinese">Chinese</option>
+				<option value="French">French</option>
+				<option value="German">German</option>
+				<option value="hi">Hindi</option>
+				<option value="Indonesian">Indonesian</option>
+				<option value="Irish">Irish</option>
+				<option value="Italian">Italian</option>
+				<option value="Japanese">Japanese</option>
+				<option value="Korean">Korean</option>
+				<option value="Polish">Polish</option>
+				<option value="Portuguese">Portuguese</option>
+				<option value="Russian">Russian</option>
+				<option value="Spanish">Spanish</option>
+				<option value="Turkish">Turkish</option>
+				<option value="Vietnamese">Vietnamese</option>
+			</select>
+		</p>
+	</div>
+	<div id="all">
+		<textarea id="source_language" oninput="Translate()"></textarea>
+		<textarea id="converted_language"></textarea>
+	</div>
+</body>
+</html>

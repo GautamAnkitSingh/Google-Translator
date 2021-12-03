@@ -1,0 +1,52 @@
+body{
+    width:70%;
+    margin-left:22%;
+}
+#source_language{
+    border:1px solid gray;
+    height:300px;
+    width:300px;
+    background: rgb(245, 74, 102);
+    color: white;
+    border-radius: 8px;
+}
+#converted_language{
+    border:1px solid gray;
+    height:300px;
+    width:300px;
+    background: springgreen;
+    color: white;
+    border-radius: 8px;
+}
+#language{
+    margin-left: 20%;
+}
+#source_para{
+    color:orangered;
+    margin-left: 15%;
+}
+#converted_para{
+    color:lawngreen;
+}
+#source_select{
+    background: deeppink;
+    color: ghostwhite;
+    border-radius: 8px;
+    width:20%;
+}
+#converted_select{
+    background: lawngreen;
+    color: ghostwhite;
+    border-radius: 8px;
+    width:20%;
+}
+#source{
+    grid-area: s;
+}
+#converted{
+    grid-area: c;
+}
+#language_translate{
+    display:grid;
+    grid-template: "s c";
+}
